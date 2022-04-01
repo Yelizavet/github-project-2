@@ -107,7 +107,7 @@ body{
     color: var(--second-color);
 }
 .footer{
-    background-color: grey;
+    background-color: #2F303A;
 }
 .foot-link{
     font-style: normal;
