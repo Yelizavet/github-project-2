@@ -9,6 +9,8 @@ a{
 }
 li{
    list-style: none;
+   padding: 0;
+   margin: 0;
 }
 p, h1, h2, h3, h4, h5, h6{
     margin: 0;
@@ -68,33 +70,33 @@ body{
 }
 .hero{
     background-color: #212121;
-    height: 600px;
+    outline: 2px solid tomato;
+    text-align: center;
+
+    
 }
 .hero-title{  
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
-    text-align: center;
     text-transform: uppercase;
     color: var(--banner-color);
-    padding-top: 200px;
+    margin-bottom: 30px;
 }
 .hero-btn{
     font-weight: 700;
-    font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
     color: var(--banner-color);
     background-color: var(--alt-color);
-    margin-top: 30px;
     padding: 10px 32px;
     border-radius: 4px;
+    min-width: 200px;
 }
-
-.advantages-list{
-    margin-top: 94px;
-    margin-bottom: 94px;
+.advantages{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .advantages-title{
     font-size: 14px;
@@ -117,25 +119,15 @@ body{
     letter-spacing: 0.03em;
     text-align: center;
 }
-.about{
-    margin-bottom: 94px;
-}
+
 .about-title{
     color: var(--main-color);
     margin-bottom: 50px;
 }
-.team-container{
-    padding-top: 94px;
-}
 .team-title{
     color: var(--main-color);
 }
-.team-list{
-    margin-top: 50px;
-}
-.team-item{
-    margin-bottom: 50px;
-}
+
 .team-item-title{
     font-size: 16px;
     line-height: 1.18;
@@ -148,15 +140,11 @@ body{
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    color: var(--second-color);
+    color: var(--second-color);    
 }
-.team-item-container{
-    padding-top: 30px;
-    margin-bottom: 10px;
-}
+
 .footer{
     background-color: #2F303A;
-    width: 1600px;
     height: 262px;
     padding-top: 60px;
 }
