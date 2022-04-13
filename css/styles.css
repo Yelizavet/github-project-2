@@ -43,6 +43,8 @@ body{
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--main-color);
+    margin-right: 93px;
+    margin-top: 24px;
 }
 
 .logo-part{
@@ -56,6 +58,31 @@ body{
     letter-spacing: 0.02em;
 }
 
+.header-container{
+    display: flex;
+    height: 80px;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.header-list{
+    display: flex;
+}
+.header-item + .header-item{
+    margin-left: 50px;
+}
+.header-contacts-list:nth-child(2){
+    margin-left: 50px;
+}
+.header-contacts{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+.header-contacts + .header-contacts{
+    margin-right: 50px;
+}
 .header-link{
     color: var(--main-color);
 }
@@ -70,11 +97,11 @@ body{
 }
 .hero{
     background-color: #212121;
-    outline: 2px solid tomato;
     text-align: center;
-
+    height: 600px;
     
 }
+
 .hero-title{  
     font-weight: 900;
     font-size: 44px;
@@ -83,6 +110,7 @@ body{
     text-transform: uppercase;
     color: var(--banner-color);
     margin-bottom: 30px;
+    padding-top: 200px;
 }
 .hero-btn{
     font-weight: 700;
@@ -93,6 +121,7 @@ body{
     padding: 10px 32px;
     border-radius: 4px;
     min-width: 200px;
+    border-color: transparent;
 }
 .advantages{
     padding-top: 94px;
