@@ -305,12 +305,14 @@ button{
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
+  
 .category-btns-list{
     margin-top: 94px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .category-menu {
     font-size: 16px;
     font-weight: 500;
@@ -327,9 +329,11 @@ button{
     justify-content: center;
     align-items: center;
 }
+
 .category-item{
     margin-right: 8px;
 }
+
 .category-item:last-child{
     margin-right: 0;
 }
