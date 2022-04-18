@@ -251,6 +251,25 @@ button{
     padding-bottom: 30px;    
 }
 
+.team-socials-list{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.team-socials-link{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #2196F3;
+    display: block;
+
+}
+
+.team-socials-item+.team-socials-item{
+    margin-left: 10px;
+}
+
 /*------FOOTER-------*/
 
 .footer{
