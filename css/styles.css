@@ -165,7 +165,7 @@ button{
 }
 
 .advantages-item:nth-child(4n) {
-    margin-right: -30px;
+    margin-right: 0;
 }
 
 .advantages-title{
@@ -197,7 +197,7 @@ button{
     margin-right: 30px;
 }
 .about-item:nth-child(3n){
-    margin-right: -30px;
+    margin-right: 0;
 }
 .about-title{
     color: var(--main-color);
@@ -215,7 +215,6 @@ button{
 .team-title{
     color: var(--main-color);
     margin-bottom: 50px;
-
 }
 
 .team-list{
@@ -260,12 +259,20 @@ button{
     padding-bottom: 60px;
 }
 
+.footer-logo{
+    margin-right: 0;
+}
+
 .footer-list{
     margin-top: 20px;
 }
 
 .footer-item{
-    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+.footer-item:nth-child(3n){
+    margin-bottom: 0;
 }
 
 .foot-link{
@@ -347,8 +354,8 @@ button{
 
 /*--------PORTFOLIO---------*/
 .works{
-    padding-bottom: 94px;
-    padding-top: 50px;
+    margin-bottom: 94px;
+    margin-top: 50px;
 }
 
 .works-list{
