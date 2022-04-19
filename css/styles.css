@@ -3,6 +3,7 @@
     --banner-color: #FFFFFF;
     --second-color: #757575;
     --alt-color: #2196F3;
+    --socials-color: #AFB1B8;
 }
 
 body{
@@ -97,6 +98,7 @@ button{
     align-items: center;
 }
 
+
 .header-contacts-list + .header-contacts-list{
     margin-left: 50px;
 }
@@ -110,7 +112,7 @@ button{
 }
 
 .header-contacts-tel{
-     color: var(--second-color);
+    color: var(--second-color);
 }
 
 .header-contacts-tel:hover, .header-contacts-tel:focus{
@@ -124,6 +126,10 @@ button{
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../photo/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .hero-title{  
@@ -261,9 +267,19 @@ button{
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color: #2196F3;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--socials-color);
+}
 
+.team-socials-icon{
+    fill: currentColor;
+}
+
+.team-socials-link:hover, .team-socials-link:focus{
+    background-color: var(--alt-color);
+    color: var(--banner-color);
 }
 
 .team-socials-item+.team-socials-item{
