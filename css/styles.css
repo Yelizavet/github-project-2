@@ -98,6 +98,14 @@ button{
     align-items: center;
 }
 
+.header-contacts-list{
+    color: var(--second-color);
+}
+
+.contact-icon{
+    margin-right: 10px;
+    fill: currentColor;
+}
 
 .header-contacts-list + .header-contacts-list{
     margin-left: 50px;
@@ -119,6 +127,8 @@ button{
     color: var(--alt-color);
 }
 
+
+
 /*-------HERO-------*/
 
 .hero{
@@ -139,7 +149,9 @@ button{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--banner-color);
-    margin-bottom: 30px;
+    max-width: 696px;
+    text-align: center;
+    margin: 0 auto 30px;
 }
 
 .hero-btn{
@@ -161,12 +173,33 @@ button{
     padding-bottom: 94px;
 }
 
+.advantages-icons-list{
+    display: flex;
+}
+
+.advantages-icons-item{
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    width: calc((100% - 90px) / 4);
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.advantages-icons-item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.advantages-icon{
+    margin: 20px 100px;
+}
 .advantages-list{
     display: flex;
 }
 
 .advantages-item{
-    width: calc((100% -90px) / 4);
+    width: calc((100% - 90px) / 4);
     margin-right: 30px;
 }
 
@@ -286,6 +319,42 @@ button{
     margin-left: 10px;
 }
 
+/*---------CLIENTS--------- */
+
+.clients{
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+.clients-list{
+    display: flex;
+    margin-top: 50px;
+}
+
+.clients-item{
+    margin: 0;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    max-width: calc((100% - 150px) / 6);
+    margin-right: 30px;
+}
+
+.clients-item:nth-child(6n){
+    margin-right: 0;
+}
+
+.clients-icon{
+    color: #AFB1B8;
+}
+.clients-icon{
+    fill: currentColor;
+    margin: 16px 32px;
+}
+
+.clients-icon:hover, .clients-icon:focus{
+    fill: #2196F3;
+}
+
+
 /*------FOOTER-------*/
 
 .footer{
@@ -333,6 +402,8 @@ button{
     color:var(--alt-color)
 }
 
+
+
 /* ------Страница Портфолио-------*/
 
 .visually-hidden {
@@ -353,6 +424,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .category-menu {
