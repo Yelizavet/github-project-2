@@ -362,8 +362,13 @@ button{
 
 .footer{
     background-color: #2F303A;
-    padding-top: 60px;
+    padding-top: 66px;
     padding-bottom: 60px;
+    overflow: hidden;
+}
+
+.adress-container{
+    float: left;
 }
 
 .footer-logo{
@@ -406,15 +411,10 @@ button{
 }
 
 .join-container{
-    width: 206px;
-    height: 80px;
+    float: left;
+    margin-left: 69px;
+    margin-top: 10px;
 }
-
-.adress-container{
-    width: 235px;
-    height: 126px;
-}
-
 
 .join-title{
     font-size: 14px;
